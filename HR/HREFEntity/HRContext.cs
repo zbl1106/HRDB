@@ -27,5 +27,8 @@ namespace HREFEntity
         }
 
         public DbSet<EStudent> EStudent { get; set; }
+        public DbSet<Econfig_file_first_kind> Econfig_file_first_kind { get; set; }
+        public DbSet<Econfig_file_second_kind> Econfig_file_second_kind { get; set; }
+        public DbSet<Econfig_file_third_kind> Econfig_file_third_kind { get; set; }
     }
 }

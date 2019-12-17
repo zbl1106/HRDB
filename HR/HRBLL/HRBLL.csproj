@@ -41,10 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="config_file_first_kindBLL.cs" />
+    <Compile Include="config_file_second_kindBLL.cs" />
+    <Compile Include="config_file_third_kindBLL.cs" />
+    <Compile Include="config_majorBLL.cs" />
+    <Compile Include="config_major_kindBLL.cs" />
+    <Compile Include="config_public_charBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StudentBLL.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HREFEntity\HREFEntity.csproj">
+      <Project>{dc84b4f7-2423-4d7c-82f6-cf05fe9a2c73}</Project>
+      <Name>HREFEntity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HRIBLL\HRIBLL.csproj">
       <Project>{c7983eea-2a75-481e-9f4c-042309a5d33b}</Project>
       <Name>HRIBLL</Name>

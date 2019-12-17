@@ -78,7 +78,6 @@ namespace HRDAO
             //5 从对象上下文移除对象。
             if (ext)
             {
-
                 ObjContext.Detach(objT);
             }
         }

@@ -60,7 +60,7 @@ namespace HRUI.Controllers
         public ActionResult Edit(int id)
         {
             
-             EStudent st = hr.EStudent.AsNoTracking().Where(e => e.Id.Equals(id)).FirstOrDefault();
+            EStudent st = hr.EStudent.AsNoTracking().Where(e => e.Id.Equals(id)).FirstOrDefault();
             Student st2 = new Student() 
             {
              Id=st.Id,
