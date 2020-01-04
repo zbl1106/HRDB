@@ -11,7 +11,7 @@ namespace HRIBLL
     {
         Task<List<config_file_first_kind>> CFKSelect();
         Task<int> CFKAdd(config_file_first_kind ck);
-        Task<int> CFKUpdate(config_file_first_kind ck, params string[] ps);
+        Task<int> CFKUpdate(config_file_first_kind ck,  params string[] ps);
         Task<int> CFKDel(config_file_first_kind ck);
     }
 }
